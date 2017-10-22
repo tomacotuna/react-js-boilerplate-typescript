@@ -1,0 +1,87 @@
+.button {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  padding-top: 5px;
+  border-radius: 20px;
+  height: 40px;
+  border-width: 2px;
+  border-style: solid;
+  transition: border 0.1s, background-color 0.1s;
+  background-color: transparent;
+  text-align: center; }
+  .button p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 24px;
+    transition: color 0.1s;
+    margin-left: 2px; }
+  .button.large-text p {
+    font-size: 18px;
+    margin-left: 3px; }
+  .button.filled {
+    border-color: transparent; }
+  .button.black {
+    border-color: #040417; }
+    .button.black .icon {
+      color: #040417; }
+    .button.black p {
+      color: #040417; }
+    .button.black:hover {
+      border-color: black;
+      background-color: #040417; }
+      .button.black:hover .icon, .button.black:hover p {
+        color: #EFEFEF; }
+    .button.black.filled {
+      background-color: #040417;
+      border-color: #EFEFEF; }
+      .button.black.filled .icon, .button.black.filled p {
+        color: white; }
+      .button.black.filled:hover {
+        background-color: #EFEFEF;
+        border-color: #040417; }
+        .button.black.filled:hover .icon, .button.black.filled:hover p {
+          color: #040417; }
+  .button.white {
+    border-color: white; }
+    .button.white .icon, .button.white p {
+      color: white; }
+    .button.white:hover {
+      background-color: white; }
+      .button.white:hover .icon, .button.white:hover p {
+        color: #040417; }
+    .button.white.filled {
+      background-color: white; }
+      .button.white.filled .icon, .button.white.filled p {
+        color: #040417; }
+      .button.white.filled:hover {
+        background-color: #040417;
+        border-color: white; }
+        .button.white.filled:hover .icon, .button.white.filled:hover p {
+          color: white; }
+  .button.grey {
+    border-color: #BEBEBE; }
+    .button.grey .icon {
+      color: #9F9F9F; }
+    .button.grey p {
+      color: #757575; }
+    .button.grey:hover {
+      border-color: #a5a5a5;
+      background-color: rgba(190, 190, 190, 0.1); }
+      .button.grey:hover .icon {
+        color: #868686; }
+      .button.grey:hover p {
+        color: #5c5c5c; }
+    .button.grey.filled {
+      background-color: #BEBEBE; }
+      .button.grey.filled .icon {
+        color: white; }
+      .button.grey.filled p {
+        color: white; }
+      .button.grey.filled:hover {
+        background-color: #a5a5a5; }
+        .button.grey.filled:hover .icon {
+          color: white; }
+        .button.grey.filled:hover p {
+          color: white; }

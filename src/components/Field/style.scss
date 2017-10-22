@@ -1,0 +1,48 @@
+$border-color: #616161;
+
+.field {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .field-title {
+    width: 70px;
+    font-size: 12px;
+  }
+
+  .field-dark {
+    color: lighten(black, 30);
+  }
+
+  .field-light {
+    color: darken(white, 20);
+  }
+
+  input {
+    width: 100%;
+    padding: 0;
+    height: 20px;
+    line-height: 15px;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 5px;
+    &:focus {
+      outline-width: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .field {
+    display: flex;
+    flex-direction: column;
+
+    .field-title {
+      margin-bottom: 20px;
+    }
+  }
+}
